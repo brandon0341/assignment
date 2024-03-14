@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top, rgb(104, 104, 104), rgb(66, 158, 211));
+}
+#sign{
+    width: 500px;
+    margin: 120px auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #ffffff;
+}
+.grid-sign{
+    display: grid;
+    row-gap: 20px;
+}
+#btn{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-size: large;
+    border-radius: 10px;
+}
+@media screen and (max-width: 700px){
+    #sign{
+        width: 65%;
+        padding: 40px;
+    }
+}
